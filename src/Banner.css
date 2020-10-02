@@ -1,0 +1,44 @@
+.banner {
+    background: url("https://photos.zillowstatic.com/uncropped_scaled_within_1536_1152/IS3vk39icyuy6t1000000000.webp") center center;
+    height: 60vh;
+    position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-top: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #fc4f52 !important;
+}
+
+.banner__info > button {
+    background-color: #fc4f52;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > h5 {
+    margin-top: 10px;
+}
+
+.banner__info > button:hover {
+    background-color: white;
+    color: #fc4f52;
+}
